@@ -9,7 +9,7 @@ import retrofit2.http.GET;
 
 public interface ApiInterface {
 
-    static final String BASE_URL = "https://corona.lmao.ninja/v2/countries";
+    static final String BASE_URL = "https://corona.lmao.ninja/v2/countries/";
 
     @GET("countries")
     Call<List<Country>> getCountry();
